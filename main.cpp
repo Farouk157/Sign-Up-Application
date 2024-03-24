@@ -13,14 +13,6 @@
 
 int condition = TRUE;
 
-typedef enum 
-{   
-    DEFAULT,
-    ADD_USER,
-    FETCH_USER,
-    QUIT
-}Option;
-
 class User
 {
     private:
@@ -31,6 +23,14 @@ class User
         void Fetch_Record();
         void Qiut(); 
 };
+
+typedef enum 
+{   
+    DEFAULT,
+    ADD_USER,
+    FETCH_USER,
+    QUIT
+}Option;
 
 
 void print_msg(std::string str);
