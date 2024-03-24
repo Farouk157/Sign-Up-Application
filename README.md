@@ -1,7 +1,7 @@
 # Sign-Up-Application
 This is a simple sign-up application implemented in C++. It allows users to add their name and age as records, fetch previously added records by providing their ID, and quit the application when finished.
 
-### Features
+## Features
 1- Add Record: Users can add their name and age to the records.  
 2- Fetch Record: Users can retrieve previously added records by providing their ID.  
 3- Quit: Users can exit the application when done.  
